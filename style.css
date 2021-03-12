@@ -1,0 +1,86 @@
+body{
+  /* background-color: #0082bf; */
+  /* background-color: #005a96; */
+  background-color:  #0e4d76;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+table {
+  /* margin: -20px -20px; */
+  
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.icons{
+  width: 56px;
+  height: 46px;
+}
+
+.logo{
+  font-family: "BPG LE Studio 02 Caps", sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  opacity: 1;
+}
+
+.logo1{
+  font-family: "BPG LE Studio 02 Caps", sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.content{
+  display: block;
+  text-align: center;
+  line-height: 12px
+}
+
+.hello{
+  font-size: 32px;
+}
+
+.checkbox{
+  width: 100%;
+  text-align: left
+}
+
+.check{
+  width: 20px;
+  height: 20px;
+}
+
+label{
+  position: relative;
+  top: -5px;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.shesvla{
+  background-color: #92278f;
+  line-height: 48px;
+}
+
+.notuser{
+  font-size: 14px;
+}
+
+input{
+  line-height: 32px;
+  background-color: #eff2f4;
+}
+
+.bottom{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.bottom p{
+  text-decoration: underline;
+  font-size: 14px;
+}
